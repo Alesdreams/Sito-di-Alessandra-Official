@@ -21,6 +21,9 @@ theme:
         icon: material/eye-outline
         name: Switch to light mode
 
+nav:
+  - Home: index.md
+
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
