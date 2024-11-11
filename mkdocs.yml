@@ -1,6 +1,13 @@
 site_name: Il sito di Alessandra
 site_url: https://mydomain.org/mysite
 theme:
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - content.code.copy
   language: it
   logo: assets/playstation.png
   name: material
@@ -22,13 +29,20 @@ theme:
         name: Switch to light mode
 
 nav:
-  - Home: index.md
+  - Bio: index.md
+  - Annotazioni: about.md
 
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
 
 extra:
   consent:
@@ -39,3 +53,19 @@ extra:
       saremo in grado di intercettare i suoi dati, di identificare i suoi tratti di ricerca
       quotidiani e, occasionalmente, verificare mediante i suoi dispositivi muniti di videocamera
       e/o strumenti di videosorveglianza se ha consumato almeno tre pasti completi al giorno.
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

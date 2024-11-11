@@ -1,17 +1,7 @@
-# Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+# Benvenuto sul sito di Alessandra C:
+![Bio Image](Foto Bio.jpg)
+## Informazioni su di me
+* `Preferenze sul cibo` - Adoro il cocco, provo un leggero odio verso i peperoni
+* `Perchè odio i peperoni?` - Non lo so, per me hanno un retrogusto amaro. Fun fact: da piccola rovinai le piante di peperoni della vicina.
+* `Percorso di studi` - Frequento il II Anno all'Accademia di Belle Arti di Napoli
+* `Mi piacciono i gatti` - Miao
