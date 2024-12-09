@@ -1,0 +1,2 @@
+# Gruppo Groviglio Entropico
+ Ciao, faccio parte del gruppo Groviglio Entropico. Per tutte le informazioni a riguardo ti chiedo di rivolgerti al sito di [Giulia Genovese](https://giulia-genovese.github.io/imparandomkdocs/).
